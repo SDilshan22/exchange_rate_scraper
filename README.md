@@ -34,7 +34,7 @@ Local Setup
 
 Docker Setup
 
-    Pull Selenium Chrome WebDriver
+    Pull Selenium Grid Standalone⁠ with Chrome, which enables you to run WebDriver tests remotely (https://hub.docker.com/r/selenium/standalone-chrome)
       docker run -d -e SE_NODE_MAX_SESSIONS=5 -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
 
     Build the Exchange Rate Scraper image and run container
