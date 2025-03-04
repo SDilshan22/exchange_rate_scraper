@@ -41,6 +41,10 @@ Docker Setup
       docker build -t exchange-rate-scraper .
       docker run -dit --name scraper --network=host exchange-rate-scraper
 
+    Linux is recommended but for harcore windows users (Windows docker setup tutorial) - Use bind mounts to sync directories/easier access to gnerated reports
+    https://www.youtube.com/watch?v=NAmr0fW5SC0
+
+
 Project Structure
 
     combank.py: Commercial Bank scraper
